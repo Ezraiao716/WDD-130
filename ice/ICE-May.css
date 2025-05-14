@@ -1,0 +1,22 @@
+body {
+    background-color: #396E94;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+header{
+    color: black;
+}
+ol {
+    list-style-position: inside;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  :root{--heading-font: "Tagesschrift", system-ui;}
+
+name {
+   font-family: "Tagesschrift", system-ui;
+
+}
