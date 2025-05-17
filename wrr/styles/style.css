@@ -1,6 +1,52 @@
-#content {
-    max-width: 800px;
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#hero-img {
     width: 100%;
+}
+
+#hero-msg {
     padding: 20px;
-    margin: 0 auto;
+    background-color: lightgray;
+}
+
+.home-grid {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: lightgray;
+
+}
+
+.home-grid section {
+    flex: 1;
+    text-align: center
+    ;
+    background-color: lightgray;
+}
+
+.card-img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
 }
