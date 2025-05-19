@@ -1,52 +1,79 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #f9d089; 
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    background-color:rgba(20,30,13, .7);
+
+}
+nav a:hover {
+    background-color: black;
+}
+
+.logo{
+    width: 100px;
 }
 
 nav a {
-    margin: 0 10px;
+    text-align: center;
+    color: #fcfbfb;
     text-decoration: none;
-    color: black;
 }
 
 #hero-img {
-    width: 100%;
+    width: 600px;
 }
 
 #hero-msg {
+    text-align: center;
     padding: 20px;
-    background-color: lightgray;
 }
 
 .home-grid {
-    display: flex;
+
     gap: 20px;
     padding: 20px;
-    background-color: lightgray;
 
 }
 
 .home-grid section {
     flex: 1;
-    text-align: center
-    ;
-    background-color: lightgray;
+    text-align: center;
 }
 
 .card-img {
-    width: 100%;
+    width:400px;
 }
 
-footer {
+.icon {
+    width: 80px;
+}
+
+#background {
+    height: 725px;
+    background-color:rgb(141, 140, 151);
+}
+
+footer h1 {
     text-align: center;
-    padding: 20px;
-    background-color: #eee;
+    font-size: 1.2em;
+} 
+
+footer p a:hover {
+    text-decoration: underline;
+    color:#2CA58D;
+}  
+
+footer a {
+    text-decoration:none;
+    color:#2CA58D;
+}  
+
+.social img {
+width: 50px;
 }
