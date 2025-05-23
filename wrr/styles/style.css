@@ -5,6 +5,10 @@
 }
 body {
     background-color: #f9d089; 
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -23,10 +27,13 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    text-decoration: none;
+    padding: 35px;
 }
 
 #hero-img {
     width: 600px;
+    border: 10px solid #d9c2a3;
 }
 
 #hero-msg {
@@ -48,10 +55,18 @@ nav a {
 
 .card-img {
     width:400px;
+    border: 10px solid #d9c2a3;
 }
 
 .icon {
     width: 80px;
+    border: 10px solid #d9c2a3;
+    padding: 35px;
+}
+
+.good-img {
+    border: 10px solid #d9c2a3;
+
 }
 
 #background {
@@ -62,18 +77,43 @@ nav a {
 footer h1 {
     text-align: center;
     font-size: 1.2em;
+    margin-top: 50px;
+} 
+footer h2 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 50px;
+    padding: 15px 30px;
 } 
 
 footer p a:hover {
     text-decoration: underline;
     color:#2CA58D;
+    margin-top: 50px;
 }  
 
 footer a {
     text-decoration:none;
     color:#2CA58D;
+    margin-top: 50px;
 }  
 
 .social img {
 width: 50px;
+}
+
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+  }
+
+.button-box {
+    padding: 35px;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
 }
