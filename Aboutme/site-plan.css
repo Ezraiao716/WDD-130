@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #8c5618   ;
-  --secondary-color: #171306 ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #874E23  ;
+  --secondary-color: #110D0F ;
+  --accent1-color: #190E4F;
+  --accent2-color: #E9F0EF;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
@@ -37,8 +37,8 @@ body {
   text-align: center;
 }
 img {
-  display: block;
-  margin: 0 auto;
+  width: 50%;
+  height: 50%;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family:  "Gill Sans", sans-serif;
